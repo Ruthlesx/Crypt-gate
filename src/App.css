@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+:root{
+  --text-primary:#000;
+  --bgPrimary:#fff;
+ --bgSecondary: #F9F9F9;
+ --blue: #0065F2;
+ --light-blue: #015BD7;
+ --border: #d9d9d9;
+ --green: #28B440;
+ --light-green: #2DCB48;
+ --yellow: #E4B80B;
+ --light-yellow: #FFCC00;
+ --red: #F43319;
+ --gradient:  linear-gradient(90deg, #49478C, #9756FF);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.navbar {
+  /*background: linear-gradient(180deg, #49478C, #9756FF); */
+  background: linear-gradient(90deg, #49478C, rgba(151, 86, 255, 0.7))
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo-crypt{
+  margin-top: -60px;
+  margin-left: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu{
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+}
+
+.first-col{
+  margin-left: 30%;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.heading{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.button1{
+  background-color: #3C387F;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.button2{
+  background-color: #000;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.founded{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.Header-2{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly ;
+}
+
+.start-heading{
+  margin-left: 15%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.founded2{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+
+.phone-card{
+  background-color: rgb(235, 234, 234);
+  width: 390px;
+  height: 550px;
+  margin-left: 32%;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  
+}
+
+.phone-card2{
+  background-color: rgb(235, 234, 234);
+  width: 390px;
+  height: 550px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  
+  
+}
+.phone-img{
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer {
+  background-color: #001529;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: White;
+  align-items: center;
+  margin-top: 5px;
 }
